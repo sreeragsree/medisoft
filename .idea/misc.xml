@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/arc_dark_blue_fil.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/arc_dark_blue_fill2.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/background_btn_1.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/background_btn_2.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/call_background_stroke.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/circle_blue_fil.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/circularbluebordersolid.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/circularbordersolidbottom.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/circularbordersolidtop.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/circularsolid.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/color_cursor.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/custom_spinner.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/custom_spinnernew.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/green_round_border.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/grey_round_border2.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/ic_keyboard_arrow_down_black_24dp.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/my_gradient_drawable.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/my_gradient_drawable2.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/my_gradient_drawable3.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/progress_wheel_bg.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/search_edt.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/shop_background_stroke.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/toast_view_bg.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/drawable/top_btn_background.xml" value="0.1" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/activity_asset_on_xml.xml" value="0.19375" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/activity_login.xml" value="0.184375" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/activity_purchase_order.xml" value="0.15885416666666666" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/activity_signup.xml" value="0.19479166666666667" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/activity_splash.xml" value="0.19583333333333333" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/fragment_p_order.xml" value="0.1703125" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/progress_wheel.xml" value="0.2" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/layout/toolbar_custom.xml" value="0.184375" />
+        <entry key="..\:/MEDISOFT APP DB/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

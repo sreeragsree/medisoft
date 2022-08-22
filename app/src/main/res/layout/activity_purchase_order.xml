@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/tb_common"
+        layout="@layout/toolbar_custom" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txtview_quotes"
+        android:layout_below="@+id/tb_common">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f6f8fa"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="YOUR VEHICLE DETAILS"
+                    android:textColor="#444445"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REGISTRATION NUMBER"
+                    android:textColor="#c3c7cd" />
+
+                <EditText
+                    android:id="@+id/edt_reg_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/green_round_border"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:hint="GJ06AR3234"
+                    android:maxLines="1"
+                    android:textColor="#444445"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="SELECT CITY &amp; RTO"
+                    android:textColor="#c3c7cd" />
+
+
+                <EditText
+                    android:fontFamily="@font/proximanovaregular"
+                    android:id="@+id/edt_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="11dp"
+                    android:maxLines="1"
+
+                    android:background="@drawable/grey_round_border2"
+                    android:hint="Kigali"
+                    android:textColor="#444445"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="MANUFACTURER"
+                    android:textColor="#c3c7cd" />
+
+                <LinearLayout
+                    android:id="@+id/linear_manufacture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/grey_round_border2"
+                    android:orientation="horizontal">
+
+c
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="MODEL &amp; VARIANT"
+                    android:textColor="#c3c7cd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/grey_round_border2"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="REGISTRATION YEAR"
+                    android:textColor="#c3c7cd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/grey_round_border2"
+                    android:orientation="horizontal">
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f6f8fa"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Previous policy details"
+                    android:textAllCaps="true"
+                    android:textColor="#444445"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PREVIOUS INSURANCE"
+                    android:textColor="#c3c7cd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/grey_round_border2"
+                    android:orientation="horizontal">
+
+
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="POLICY EXPIRED DATE"
+                    android:textColor="#c3c7cd" />
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/grey_round_border2"
+                    android:gravity="center_vertical"
+                    android:hint="dd/mm/yy"
+                    android:paddingLeft="14dp"
+                    android:textColor="#444445"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:fontFamily="@font/proximanovaregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="IS CLAIMED MADE"
+                    android:textColor="#c3c7cd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/grey_round_border2"
+                    android:orientation="horizontal">
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:fontFamily="@font/proximanovaregular"
+        android:id="@+id/txtview_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3498DB"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="View Quotes"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
