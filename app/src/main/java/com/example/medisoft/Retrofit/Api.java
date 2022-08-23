@@ -15,8 +15,9 @@ public interface Api {
     @POST(APIClient.APPEND_URL + "register")
     Call<JsonObject> register(@Body JsonObject object);
 
-    @POST(APIClient.APPEND_URL + "getstock_byClient")
-    Call<JsonObject> getstock_byClient(@Body JsonObject object);
+    @POST(APIClient.APPEND_URL + "getAllSupplierbyClient")
+    Call<JsonObject> getAllSupplierbyClient(@Body JsonObject object);
+
 
 
 
